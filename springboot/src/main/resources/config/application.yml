@@ -1,0 +1,14 @@
+spring:
+  mvc:
+    view:
+      prefix: /pages/
+      suffix: .jsp
+  datasource:
+    url: jdbc:mysql://10.131.0.201:3307/user_db?characterEncoding=utf8
+    username: Thomas
+    password: Thomas
+    driver-class: com.mysql.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+    name: user_db
+server:
+    port: 8099
